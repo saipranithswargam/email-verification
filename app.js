@@ -101,6 +101,9 @@ app.post("/api", async (req, res) => {
   app.get("/",(req,res)=>{
     res.sendFile(__dirname+"/tobesent.html");
   })
+app.get("/verified",(req,res)=>{
+    res.send("<h1>You have been verified</h1>")
+})
 app.listen(process.env.PORT||3000,()=>{
     console.log("listening to port 3000");
 })
