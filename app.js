@@ -96,7 +96,7 @@ app.post("/api", async (req, res) => {
       'Subject : Saipranith Swargam- ASN--093',
       "Welcome message content"
     );
-    res.send(req.body.email);
+    res.send("please verify your email");
   });
   app.get("/",(req,res)=>{
     res.sendFile(__dirname+"/tobesent.html");
