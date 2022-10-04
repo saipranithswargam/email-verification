@@ -9,7 +9,7 @@ const { sendEmail } = require("./email");
 const hbs = require('nodemailer-express-handlebars');
 
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(express.static("public"));
 app.set("view engine",'ejs');
 
 const OAuth2 = google.auth.OAuth2 

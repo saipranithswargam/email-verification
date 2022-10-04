@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verification</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <form method="post" action="/api">
-        <input placeholder="Email" name="email">
-        <input placeholder="password" name="pass">
-        <a><button>Clickme</button></a>
+    <h1 class="animate-pulse">Register Yourself</h1>
+    <form method="post" action="/api" class="card">
+        <input  class="mr" placeholder="Email" name="email" autocomplete="off">
+        <input  class="mr" placeholder="password" name="pass" autocomplete="off">
+        <a><button class="mr bg-slate-300 animate-pulse hover:animate-none font-bold  " >Clickme</button></a>
     </form>
 </body>
 </html>

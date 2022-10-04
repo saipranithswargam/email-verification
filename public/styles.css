@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom right,#414141,#000000);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+h1{
+    font-size: x-large !important;
+    font-weight: 700 !important;
+    margin-bottom: 2%;
+    color: #eee;
+
+}
+.card{
+    height: 50vh;
+    width:80vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid wheat;
+}
+.mr{
+    margin-bottom: 2%;
+}
+button{
+    padding: 15% 15% !important;
+    border-radius: 7px;
+    width: auto !important;
+    color: #000000 !important;
+}
+input{
+    padding: 2% 2% !important;
+    border-radius: 7px;
+}
+input:active,input:focus{
+    outline: none !important;
+}
